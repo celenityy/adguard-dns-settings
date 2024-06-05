@@ -126,6 +126,8 @@ Note that I also maintain a comprehensive whitelist [here](https://codeberg.org/
 
 **Statistics retention** -> Last hour
 
+AdGuard account settings -> Settings -> **Password and 2FA** -> Enable 2FA
+
 # Additional recommendations
 
 * Use a privacy-respecting browser like [Firefox](https://www.mozilla.org/firefox/)
