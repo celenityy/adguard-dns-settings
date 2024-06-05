@@ -68,7 +68,11 @@ It might seem like a lot, but these are high quality lists with strong coverage,
 
 # User rules
 
-While being nice from a usability perspective, HaGeZi's Referral Allowlist and the AdGuard DNS filter list do allow some questionable ad/tracking domains we don't want unblocked.
+First, we should go ahead and whitelist `adguard-dns.io`, so that we can ensure we can always access our dashboard in case of any rogue filters.
+
+You can do this pretty easily by selecting `Add new rule` -> `Unblock domain` -> **adguard-dns.io**
+
+Now, wile being nice from a usability perspective, HaGeZi's Referral Allowlist and the AdGuard DNS filter list do allow some questionable ad/tracking domains we don't want unblocked.
 
 You can select `Open editor` and copy and paste the following to keep them blocked:
 
