@@ -72,39 +72,39 @@ While being nice from a usability perspective, HaGeZi's Referral Allowlist and t
 
 You can select `Open editor` and copy and paste the following to keep them blocked:
 
-||adservice.google.*^$important
-||adsterra.com^$important
-||amplitude.com^$important
-||analytics.edgekey.net^$important
-||analytics.twitter.com^$important
-||app.adjust.*^$important
-||app.*.adjust.com^$important
-||app.appsflyer.com^$important
-||doubleclick.net^$important
-||metric.gstatic.com^$important
-||mmstat.com^$important
-||googleadservices.com^$important
-||guce.advertising.com^$important
-||statcounter.com^$important
+`||adservice.google.*^$important`
+`||adsterra.com^$important`
+`||amplitude.com^$important`
+`||analytics.edgekey.net^$important`
+`||analytics.twitter.com^$important`
+`||app.adjust.*^$important`
+`||app.*.adjust.com^$important`
+`||app.appsflyer.com^$important`
+`||doubleclick.net^$important`
+`||googleadservices.com^$important`
+`||guce.advertising.com^$important`
+`||metric.gstatic.com^$important`
+`||mmstat.com^$important`
+`||statcounter.com^$important`
 
 Note that I maintain a variety of comprehensive blocklists [here](https://codeberg.org/Magnesium1062/blocklists/). Sadly you won't be able to add them to AdGuard DNS, but you may skim through them and manually block whatever you wish to.
 
 Regardless, if you use Apple devices, I would recommend blocking the following that aren't included on most lists for a nice bang for your buck:
 
-||cdn-xp-ingest.edge.apple^ # Similar to xp.apple.com (See below), except Apple officially admits this is used for "Reporting"
-||cdn-xp-ingest-ab.v.aaplimg.com^ # Similar to xp.apple.com (See below), except Apple officially admits this is used for "Reporting"
-||cdn-xp-ingest.apple.com^ # Related to xp-cdn.apple.com (See below)
-||cdn-xp-ingest-ab.apple.com^ # Related to xp-cdn.apple.com (See below)
-||idiagnostics.apple.com^ # Sends diagnostic data to Apple
-||idiagnostics.apple.com.akadns.net^ # Sends diagnostic data to Apple
-||pancake.apple.com^ # Seems to be used for "home sharing" & telemetry
-||pancake.apple.com.edgekey.net^ # Seems to be used for "home sharing" & telemetry
-||pancake.cdn-apple.com.akadns.net^ # Seems to be used for "home sharing" & telemetry
-||pancake.g.aaplimg.com^ # Seems to be used for "home sharing" & telemetry
-||xp.apple.com^ # General telemetry for various Apple apps & services: https://gizmodo.com/apple-iphone-analytics-tracking-even-when-off-app-store-1849757558. It has also been used for updates, but updates seem to still work without issue with this blocked.
-||xp.apple.com.edgekey.net^ # General telemetry for various Apple apps & services: https://gizmodo.com/apple-iphone-analytics-tracking-even-when-off-app-store-1849757558. It has also been used for updates, but updates seem to still work without issue with this blocked
-||xp.itunes-apple.com.akadns.net^ # General telemetry for various Apple apps & services: https://gizmodo.com/apple-iphone-analytics-tracking-even-when-off-app-store-1849757558. It has also been used for updates, but updates seem to still work without issue with this blocked
-||xp-cdn.apple.com^ # Similar to xp.apple.com, except Apple officially admits this is used for "Reporting".
+`||cdn-xp-ingest.edge.apple^` # Similar to xp.apple.com (See below), except Apple officially admits this is used for "Reporting"
+`||cdn-xp-ingest-ab.v.aaplimg.com^` # Similar to xp.apple.com (See below), except Apple officially admits this is used for "Reporting"
+`||cdn-xp-ingest.apple.com^` # Related to xp-cdn.apple.com (See below)
+`||cdn-xp-ingest-ab.apple.com^` # Related to xp-cdn.apple.com (See below)
+`||idiagnostics.apple.com^` # Sends diagnostic data to Apple
+`||idiagnostics.apple.com.akadns.net^` # Sends diagnostic data to Apple
+`||pancake.apple.com^` # Seems to be used for "home sharing" & telemetry
+`||pancake.apple.com.edgekey.net^` # Seems to be used for "home sharing" & telemetry
+`||pancake.cdn-apple.com.akadns.net^` # Seems to be used for "home sharing" & telemetry
+`||pancake.g.aaplimg.com^` # Seems to be used for "home sharing" & telemetry
+`||xp.apple.com^` # General telemetry for various Apple apps & services: https://gizmodo.com/apple-iphone-analytics-tracking-even-when-off-app-store-1849757558. It has also been used for updates, but updates seem to still work without issue with this blocked.
+`||xp.apple.com.edgekey.net^` # General telemetry for various Apple apps & services: https://gizmodo.com/apple-iphone-analytics-tracking-even-when-off-app-store-1849757558. It has also been used for updates, but updates seem to still work without issue with this blocked
+`||xp.itunes-apple.com.akadns.net^` # General telemetry for various Apple apps & services: https://gizmodo.com/apple-iphone-analytics-tracking-even-when-off-app-store-1849757558. It has also been used for updates, but updates seem to still work without issue with this blocked
+`||xp-cdn.apple.com^` # Similar to xp.apple.com, except Apple officially admits this is used for "Reporting".
 
 Note that I also maintain a comprehensive whitelist [here](https://codeberg.org/Magnesium1062/blocklists/src/branch/main/whitelist.txt). Sadly you won't be able to add it to AdGuard DNS, but you may skim through it and manually allow whatever you wish to.
 
