@@ -21,7 +21,7 @@ I would generally recommend using the following lists:
 * ⭐️ OISD Blocklist Big
 * ⭐️ Steven Black's list
 
-If you're fine with a little breakage, I would recommend using HaGeZi's **Ultimate** Blocklist instead of **Multi Pro++**.
+If you're fine with a little breakage, I would recommend using HaGeZi's **Ultimate** Blocklist instead of **Pro++**.
 
 **Security**
 
