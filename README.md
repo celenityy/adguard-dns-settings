@@ -72,7 +72,7 @@ First, we should go ahead and whitelist `adguard-dns.io`, so that we can ensure 
 
 You can do this pretty easily by selecting `Add new rule` -> `Unblock domain` -> **adguard-dns.io**
 
-Now, wile being nice from a usability perspective, HaGeZi's Referral Allowlist and the AdGuard DNS filter list do allow some questionable ad/tracking domains we don't want unblocked.
+Now, while being nice from a usability perspective, HaGeZi's Referral Allowlist and the AdGuard DNS filter list do allow some questionable ad/tracking domains we don't want unblocked.
 
 You can select `Open editor` and copy and paste the following to keep them blocked:
 
@@ -115,10 +115,6 @@ Regardless, if you use Apple devices, I would recommend blocking the following t
 `||cdn-xp-ingest.apple.com^` # Related to xp-cdn.apple.com (See below)
 
 `||cdn-xp-ingest-ab.apple.com^` # Related to xp-cdn.apple.com (See below)
-
-`||idiagnostics.apple.com^` # Sends diagnostic data to Apple
-
-`||idiagnostics.apple.com.akadns.net^` # Sends diagnostic data to Apple
 
 `||pancake.apple.com^` # Seems to be used for "home sharing" & telemetry
 
