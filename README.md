@@ -6,65 +6,115 @@ My recommendations for the ultimate AdGuard DNS Configuration :)
 
 Off to a fun start.
 
-Despite popular opinion, due to the reasons WaLLy3K has listed [here](https://github.com/WaLLy3K/wally3k.github.io?tab=readme-ov-file#why-use-this-over-other-sources), I think it's a good idea to use multiple lists and sources, rather than just limiting yourself to one or two giant lists. I myself constantly notice domains being blocked that were caught by only one list and missed by others. I'm not saying you should go overboard, but I do think it's a good idea to use a variety of high quality lists.
+Despite popular opinion, due to the reasons WaLLy3K has listed [here](https://github.com/WaLLy3K/wally3k.github.io?tab=readme-ov-file#why-use-this-over-other-sources), I think it's a good idea to use multiple lists and sources, rather than just limiting yourself to one or two giant lists. I myself constantly notice domains being blocked that were caught by only one or two lists and missed by others. **I'm not saying you should go overboard, but I do think it's a good idea to use a variety of high quality lists for the best coverage possible.**
 
 I would generally recommend using the following lists:
 
 **General**
 
-* ⭐️ AdGuard DNS filter *(Enabled by default)*
-* ⭐️ AdGuard DNS Popup Hosts filter
-* ⭐️ AWAvenue Ads Rule
-* ⭐️ Peter Lowe's Blocklist 
-* ⭐️ Dan Pollock's List
-* ⭐️ HaGeZi's Pro++ Blocklist
-* ⭐️ OISD Blocklist Big
-* ⭐️ Steven Black's list
+* ⭐️ `AdGuard DNS filter` *(Enabled by default)*
 
-If you're fine with a little breakage, I would recommend using HaGeZi's **Ultimate** Blocklist instead of **Pro++**.
+* ⭐️ `AdGuard DNS Popup Hosts filter`
+
+* ⭐️ `AWAvenue Ads Rule`
+
+* ⭐️ `Peter Lowe's Blocklist`
+
+* ⭐️ `Dan Pollock's List`
+
+* ⭐️ `HaGeZi's Pro++ Blocklist`
+
+* ⭐️ `OISD Blocklist Big`
+
+* ⭐️ `Steven Black's list`
+
+If you're fine with a little breakage, I would recommend using `HaGeZi's **Ultimate** Blocklist` instead of `HaGeZi's **Pro++** Blocklist`.
 
 **Security**
 
-* ⭐️ Phishing URL Blocklist
-* ⭐️ Dandelion Sprout's Anti-Malware List 
-* ⭐️ HaGeZi's Badware Hoster Blocklist
-* ⭐️ HaGeZi's DynDNS Blocklist
-* ⭐️ HaGeZi's The World's Most Abused TLDs (Causes rare breakage but heavily improves security)
-* ⭐️ HaGeZi's Threat Intelligence Feeds
-* ⭐️ NoCoin Filter List
-* ⭐️ Phishing Army
-* ⭐️ Scam Blocklist by DurableNapkin
-* ⭐️ ShadowWhisperer's Malware List 
-* ⭐️ Stalkerware Indicators List
-* ⭐️ The Big List of Hacked Malware Web Sites
-* ⭐️ uBlock filters - Badware risks
-* ⭐️ Malicious URL Blocklist (URLHaus)
+* ⭐️ `Phishing URL Blocklist`
+
+* ⭐️ `Dandelion Sprout's Anti-Malware List`
+
+* ⭐️ `HaGeZi's Badware Hoster Blocklist`
+
+* ⭐️ `HaGeZi's DynDNS Blocklist`
+
+* ⭐️ `HaGeZi's The World's Most Abused TLDs` *(Causes rare breakage but heavily improves security, I've seen this work in real-time, blocking scam/spam domains before they were picked up by any lists)*
+
+* ⭐️ `HaGeZi's Threat Intelligence Feeds`
+
+* ⭐️ `NoCoin Filter List`
+
+* ⭐️ `Phishing Army`
+
+* ⭐️ `Scam Blocklist by DurableNapkin`
+
+* ⭐️ `ShadowWhisperer's Malware List `
+
+* ⭐️ `Stalkerware Indicators List`
+
+* ⭐️ `The Big List of Hacked Malware Web Sites`
+
+* ⭐️ `uBlock filters - Badware risks`
+
+* ⭐️ `Malicious URL Blocklist (URLHaus)`
 
 **Others**
 
-* ⭐️ Dandelion Sprout's Anti Push Notifications
-* ⭐️ Dandelion Sprout's Game Console Adblock List
-* ⭐️ HaGeZi's Allowlist Referral (See `User rules` section below)
-* ⭐️ Perflyst and Dandelion Sprout's Smart-TV Blocklist
-* ⭐️ WindowsSpyBlocker - Hosts spy rules
+* ⭐️ `Dandelion Sprout's Anti Push Notifications`
 
-It might seem like a lot, but these are high quality lists with strong coverage, and it doesn't really hurt to use multiple like this.
+* ⭐️ `Dandelion Sprout's Game Console Adblock List`
+
+* ⭐️ `HaGeZi's Allowlist Referral` *(See `User rules` section below)*
+
+* ⭐️ `Perflyst and Dandelion Sprout's Smart-TV Blocklist`
+
+* ⭐️ `WindowsSpyBlocker - Hosts spy rules`
+
+It might seem like a lot, but these are all high quality lists with strong coverage and minimal false positives in my experience, and it generally doesn't hurt to use them like this.
 
 # Security
 
 **Block malicious, phishing, and scam domains** -> ✅
 
-**Block newly registered domains** -> ✅ (This will cause very rare breakage, but massively improves security)
+**Block newly registered domains** -> ✅ *(This will cause very rare breakage, but massively improves security)*
 
 # Parental Control 
 
-**Block adult websites** -> ❌ unless you want to, only putting this here since it seems to get turned on by default when Parental Control is enabled
+**Block adult websites** -> ❌ *(unless you want to, only putting this here since it seems to get turned on by default when `Parental Control` is enabled)*
 
-**Safe Search** -> ❌ unless you want to, only putting this here since it seems to get turned on by default when Parental Control is enabled
+**Safe Search** -> ❌ *(unless you want to, only putting this here since it seems to get turned on by default when `Parental Control` is enabled)*
 
-**YouTube restricted mode** -> ❌ unless you want to, only putting this here since it seems to get turned on by default when Parental Control is enabled
+**YouTube restricted mode** -> ❌ *(unless you want to, only putting this here since it seems to get turned on by default when `Parental Control` is enabled)*
 
-**Blocked services and websites** -> You should add in here any services you don't use or care about. For instance, I usually block `Facebook`, `Instagram`, `LinkedIn`, `TikTok`, & `WhatsApp`, as I don't use or care about any Facebook, LinkedIn, or TikTok services, and I don't want to connect to or be tracked by them.
+**Blocked services and websites** -> You should use this feature to your advantage and block any services that you don't use or care about. This can dramatically improve your privacy by preventing connections to them from even being made. If you use a service, don't block it, just block what you're comfortable with and works best for you.
+
+I usually block the following:
+
+* `Facebook`
+
+* `Instagram` *(Facebook)*
+
+* `LinkedIn`
+
+* `QQ`
+
+* `Rakuten Viki`
+
+* `Snapchat`
+
+* `Spotify`
+
+* `TikTok`
+
+* `Viber` *(Rakuten)*
+
+* `VK.com`
+
+* `WeChat`
+
+* `WhatsApp` *(Facebook)*
 
 # User rules
 
@@ -136,9 +186,9 @@ Note that I also maintain a comprehensive whitelist [here](https://codeberg.org/
 
 # Access settings 
 
-**Block known scanners** -> ✅ (Should be default)
+**Block known scanners** -> ✅ *(Should be default)*
 
-**Respond to blocked domains** -> Default (Other options can cause issues)
+**Respond to blocked domains** -> `Default` *(Other options can cause issues)*
 
 **Block Firefox canary domain** -> ✅
 
@@ -146,11 +196,11 @@ Note that I also maintain a comprehensive whitelist [here](https://codeberg.org/
 
 # Account settings
 
-**Log DNS requests** -> ✅ (Having logs on is important for troubleshooting breakage)
+**Log DNS requests** -> ✅ *(Having logs on is important for troubleshooting breakage)*
 
-**Logs retention** -> Last hour
+**Logs retention** -> `Last hour`
 
-**Statistics retention** -> Last hour
+**Statistics retention** -> `Last hour`
 
 AdGuard account settings -> Settings -> **Password and 2FA** -> Enable 2FA
 
