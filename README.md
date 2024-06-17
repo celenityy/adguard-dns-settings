@@ -2,6 +2,10 @@
 
 My recommendations for the ultimate AdGuard DNS Configuration :)
 
+*For AdGuard Home, see [here](https://codeberg.org/Magnesium1062/adguard-home-settings)*.
+
+**NOTE:** This project can be found on both [Codeberg](https://codeberg.org/Magnesium1062/adguard-dns-settings), which will act as the main & preferred way to contribute, and [GitHub](https://github.com/Retold3202/adguard-dns-settings).
+
 # Blocklists
 
 Off to a fun start.
@@ -154,35 +158,9 @@ You can select `Open editor` and copy and paste the following to keep them block
 
 `||statcounter.com^$important`
 
-Note that I maintain a variety of comprehensive blocklists [here](https://codeberg.org/Magnesium1062/blocklists/). Sadly you won't be able to add them to AdGuard DNS, but you may skim through them and manually block whatever you wish to.
+Note that I maintain a variety of comprehensive blocklists [here](https://codeberg.org/Magnesium1062/BadBlock/). Sadly you won't be able to add them to AdGuard DNS, but you may skim through them and manually block whatever you wish to.
 
-Regardless, if you use Apple devices, I would recommend blocking the following that aren't included on most lists for a nice bang for your buck:
-
-`||cdn-xp-ingest.edge.apple^` # Similar to xp.apple.com (See below), except Apple officially admits this is used for "Reporting"
-
-`||cdn-xp-ingest-ab.v.aaplimg.com^` # Similar to xp.apple.com (See below), except Apple officially admits this is used for "Reporting"
-
-`||cdn-xp-ingest.apple.com^` # Related to xp-cdn.apple.com (See below)
-
-`||cdn-xp-ingest-ab.apple.com^` # Related to xp-cdn.apple.com (See below)
-
-`||pancake.apple.com^` # Seems to be used for "home sharing" & telemetry
-
-`||pancake.apple.com.edgekey.net^` # Seems to be used for "home sharing" & telemetry
-
-`||pancake.cdn-apple.com.akadns.net^` # Seems to be used for "home sharing" & telemetry
-
-`||pancake.g.aaplimg.com^` # Seems to be used for "home sharing" & telemetry
-
-`||xp.apple.com^` # General telemetry for various Apple apps & services: https://gizmodo.com/apple-iphone-analytics-tracking-even-when-off-app-store-1849757558. It has also been used for updates, but updates seem to still work without issue with this blocked
-
-`||xp.apple.com.edgekey.net^` # General telemetry for various Apple apps & services: https://gizmodo.com/apple-iphone-analytics-tracking-even-when-off-app-store-1849757558. It has also been used for updates, but updates seem to still work without issue with this blocked
-
-`||xp.itunes-apple.com.akadns.net^` # General telemetry for various Apple apps & services: https://gizmodo.com/apple-iphone-analytics-tracking-even-when-off-app-store-1849757558. It has also been used for updates, but updates seem to still work without issue with this blocked
-
-`||xp-cdn.apple.com^` # Similar to xp.apple.com, except Apple officially admits this is used for "Reporting".
-
-Note that I also maintain a comprehensive whitelist [here](https://codeberg.org/Magnesium1062/blocklists/src/branch/main/whitelist.txt). Sadly you won't be able to add it to AdGuard DNS, but you may skim through it and manually allow whatever you wish to.
+I also maintain a comprehensive whitelist [here](https://codeberg.org/Magnesium1062/BadBlock/raw/branch/main/whitelist.txt). Sadly you won't be able to add it to AdGuard DNS, but you may skim through it and manually allow whatever you wish to.
 
 # Access settings 
 
@@ -210,8 +188,8 @@ AdGuard account settings -> Settings -> **Password and 2FA** -> Enable 2FA
 
 * Make sure to configure AdGuard DNS on **both** your OS and in your browser. This will allow you to take advantage of [Encrypted Client Hello](https://blog.cloudflare.com/announcing-encrypted-client-hello).
 
-* Use a content blocking extension like [uBlock Origin](https://github.com/gorhill/uBlock).
+* Use a content blocking extension like [uBlock Origin](https://github.com/gorhill/uBlock). *(See recommended settings [here](https://codeberg.org/Magnesium1062/ublock-origin-settings))*
 
 * Enable Safe Browsing in your browser if possible and if it's not done in a privacy-invasive way. (You should use i.e. [Google Safe Browsing on "Standard" Mode](https://safebrowsing.google.com/), [Firefox's Safe Browsing](https://support.mozilla.org/kb/how-does-phishing-and-malware-protection-work), [Brave's Safe Browsing](https://brave.com/privacy/browser/#safe-browsing), & [Safari's Fraudulent Website Warning](https://www.apple.com/legal/privacy/data/en/safari/), you should avoid most other options i.e. [Google Safe Browsing on "Enhanced" Mode](https://safebrowsing.google.com/), [Microsoft SmartScreen](https://learn.microsoft.com/windows/security/operating-system-security/virus-and-threat-protection/microsoft-defender-smartscreen/), & [Opera Sitecheck](https://blogs.opera.com/security/2021/01/making-browsing-safe-from-phishing/)).
 
-* Use a (reputable) anti-virus if possible. On Windows, you can use the built-in [Microsoft Defender Antivirus](https://en.wikipedia.org/wiki/Microsoft_Defender_Antivirus), on macOS, you can stick to the built-in [XProtect](https://support.apple.com/guide/security/protecting-against-malware-sec469d47bd8/web), on Android, you can use [Hypatia](https://f-droid.org/packages/us.spotco.malwarescanner/), and on Linux, you can use [ClamAV](https://www.clamav.net/). NOTE: You should install Hypatia through the [DivestOS Official Repo](https://divestos.org/fdroid/official/?fingerprint=E4BE8D6ABFA4D9D4FEEF03CDDA7FF62A73FD64B75566F6DD4E5E577550BE8467) instead of F-Droid's main repo, as it will allow you to receive quicker updates directly from the developer. It's also recommended to use [F-Droid Basic](https://f-droid.org/en/packages/org.fdroid.basic/) as your F-Droid client of choice.
+* Use a (reputable) anti-virus if possible. On Windows, you can use the built-in [Microsoft Defender Antivirus](https://en.wikipedia.org/wiki/Microsoft_Defender_Antivirus), on macOS, you can stick to the built-in [XProtect](https://support.apple.com/guide/security/protecting-against-malware-sec469d47bd8/web), on Android, you can use [Hypatia](https://f-droid.org/packages/us.spotco.malwarescanner/), and on Linux, you can use [ClamAV](https://www.clamav.net/). **NOTE:** You should install Hypatia through the [DivestOS Official Repo](https://divestos.org/fdroid/official/?fingerprint=E4BE8D6ABFA4D9D4FEEF03CDDA7FF62A73FD64B75566F6DD4E5E577550BE8467) instead of F-Droid's main repo, as it will allow you to receive quicker updates directly from the developer. It's also recommended to use [F-Droid Basic](https://f-droid.org/en/packages/org.fdroid.basic/) as your F-Droid client of choice.
