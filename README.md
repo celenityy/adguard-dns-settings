@@ -32,7 +32,7 @@ I would generally recommend using the following lists:
 
 * ⭐️ `Steven Black's list`
 
-If you're fine with a little breakage, I would highly recommend using `HaGeZi's **Ultimate** Blocklist` instead of `HaGeZi's **Pro++** Blocklist`.
+If you're fine with a little breakage, I would highly recommend using `HaGeZi's `**Ultimate**` Blocklist` instead of `HaGeZi's` **Pro++**` Blocklist`.
 
 **Security**
 
