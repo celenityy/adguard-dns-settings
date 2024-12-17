@@ -158,9 +158,9 @@ You can select `Open editor` and copy and paste the following to keep them block
 
 `||statcounter.com^$important`
 
-Note that I maintain a variety of comprehensive blocklists [here](https://codeberg.org/celenity/BadBlock/). Sadly you won't be able to add them to AdGuard DNS, but you may skim through them and manually block whatever you wish to.
+Note that I maintain a variety of comprehensive blocklists [here](https://badblock.celenity.dev). Sadly you won't be able to add them to AdGuard DNS, but you may skim through them and manually block whatever you wish to.
 
-I also maintain a comprehensive whitelist [here](https://codeberg.org/celenity/BadBlock/raw/branch/main/whitelist.txt). Sadly you won't be able to add it to AdGuard DNS, but you may skim through it and manually allow whatever you wish to.
+I also maintain a comprehensive whitelist [here](https://badblock.celenity.dev/abp/whitelist.txt). Sadly you won't be able to directly add it to AdGuard DNS, but you may skim through it and copy & paste or manually allow whatever you wish to.
 
 # Access settings 
 
@@ -186,7 +186,7 @@ AdGuard account settings -> Settings -> **Password and 2FA** -> Enable 2FA
 
 * Use a privacy-respecting browser like [Firefox](https://www.mozilla.org/firefox/) with my [Phoenix](https://phoenix.celenity.dev).
 
-* Make sure to configure AdGuard DNS on **both** your OS and in your browser. This will allow you to take advantage of [Encrypted Client Hello](https://blog.cloudflare.com/announcing-encrypted-client-hello).
+* If you're using a Chromium browser, make sure to configure AdGuard DNS on **both** your OS and in your browser. This will allow you to take advantage of [Encrypted Client Hello](https://blog.cloudflare.com/announcing-encrypted-client-hello). This is unnecessary on Firefox-based browsers, however it could still be useful to set in both places if for instance you want to set a separate client name for your browser than the rest of your OS, to better determine what queries are coming from where.
 
 * Use a content blocking extension like [uBlock Origin](https://github.com/gorhill/uBlock). *(See recommended settings [here](https://codeberg.org/celenity/ublock-origin-settings))*
 
